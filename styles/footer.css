@@ -1,0 +1,12 @@
+.footer {
+    background-color: #F9F9F9;
+    border-top: 1px solid grey;
+}
+
+.footer__titulo {
+    color: black;
+    line-height: 24px;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    
+}
