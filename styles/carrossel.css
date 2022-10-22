@@ -8,6 +8,7 @@
     text-transform: uppercase;
 }
 
+
 .swiper-slide img {
     width: 100%;
 }
@@ -55,16 +56,14 @@
 .card__botoes {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .botoes {
     display: flex;
 }
 
-.botoes__item {
-
-}
+.botoes__item {}
 
 .botoes__ancora {
     background-color: var(--laranja);
@@ -75,3 +74,52 @@
 }
 
 
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        padding-top: 2em;
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper-pagination-bullet {
+        width: 0.75em;
+        height: 0.75em;
+    }
+    .swiper-pagination-bullet-active {
+        background: var(--azul) !important;
+   }
+
+    .swiper {
+        width: 70%;
+        padding-left: 3em;
+        padding-right: 3em;
+        position: relative;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+      position: absolute;
+      top: 14em;
+      background: var(--azul);
+      color: white;
+      padding: 0.1em 0.6em;
+      border-radius: 50%;
+    }
+
+    .swiper-button-prev::after,.swiper-button-next::after {
+        font-size: 0.5em!important;
+        font-weight: bold;
+    }
+
+    
+    .card {
+        width: 55%;
+        margin: 2.5em auto;
+    }
+    
+
+
+
+}

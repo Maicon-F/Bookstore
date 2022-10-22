@@ -36,3 +36,31 @@
     font-style: normal;
     background-color: var(--laranja);
 }
+
+@media screen and (min-width: 1024px){
+    .topicos__titulo {
+        color: var(--branco);
+        line-height: 36px;
+        font-size: 24px;
+        font-family: var(--font-secundaria);
+        padding: 1em 0 1 0;
+    }
+
+    .topicos__lista {
+        margin: auto 4em;
+    }
+
+    .topicos__item {
+        margin: 2em 1em;
+    }
+
+    .topicos__link {
+        padding: 1.25em 1.5em;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 700;
+        font-family: var(--font-secundaria);
+    }
+
+
+}
