@@ -62,13 +62,12 @@
     }
 
     .contato__titulo {
-        font-family: var(--font-secundaria);
         font-size: 24px;
         line-height: 36px;
+        font-weight: 500;
     }
 
     .contato__texto {
-        font-family: var(--font-secundaria);
         line-height: 24px;
     }
 
@@ -76,4 +75,21 @@
         width: 30%;
     }
 
+}
+
+@media screen and (min-width: 1728px){
+    .contato {
+        padding: 3em 10vw;
+        padding-top: 4em;
+        
+    }
+    
+    .contato__descricao {
+     margin: 0 0;
+     padding: 0 0;
+    }
+
+    .contato__email {
+        width: 22%;
+    }
 }

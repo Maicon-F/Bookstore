@@ -27,7 +27,6 @@ hr {
 
     .footer__titulo {
         font-size: 24px;
-        font-family: var(--font-secundaria);
         line-height: 36px;
         font-weight: 400;
     }
@@ -54,5 +53,13 @@ hr {
         color: #474646;
         margin-left: 0.5em;
         font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 1728px){
+    .lista__rodape {
+        border-left: 1px solid #858585;
+        padding-left: 1.25em;
     }
 }

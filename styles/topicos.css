@@ -40,9 +40,9 @@
 @media screen and (min-width: 1024px){
     .topicos__titulo {
         color: var(--branco);
+        font-weight: 300;
         line-height: 36px;
         font-size: 24px;
-        font-family: var(--font-secundaria);
         padding: 1em 0 1 0;
     }
 
@@ -62,5 +62,25 @@
         font-family: var(--font-secundaria);
     }
 
+}
 
+@media screen and (min-width: 1728px){
+    .topicos__div {
+        display: none;
+    }
+
+    .topicos {
+        padding: 4em 25vw;
+    }
+
+    .topicos__titulo {
+        color: var(--branco);
+        line-height: 48px;
+        font-size: 32px;
+        padding: 0 0 1em 0;
+    }
+
+    .topicos__lista {
+        margin: auto;
+    }
 }
