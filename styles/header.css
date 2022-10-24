@@ -119,6 +119,12 @@ text-transform: uppercase;
     .opcoes {
         display: flex;
     }
+
+    .opcoes__link {
+        color: black;
+        text-decoration: none;
+    }
+
     .omitir__conteudo__screen_1024 {
         display: none;
     }
@@ -140,6 +146,7 @@ text-transform: uppercase;
 
     .lista-menu__item:hover>.lista-menu__link {
         -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
     }
 
     .lista-menu__item:hover {
